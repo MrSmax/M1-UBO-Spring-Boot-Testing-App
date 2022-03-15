@@ -35,7 +35,7 @@ public class VacataireController {
     }
 
     /**
-     * Create a new Dog in the system
+     * Create a new vacataire in the system
      */
     @PostMapping
     public VacataireDto saveDog(final @RequestBody VacataireDto vacataireDto){
@@ -43,7 +43,7 @@ public class VacataireController {
     }
 
     /**
-     * Delete a dog by it's id
+     * Delete a vacataire by it's id
      */
     @DeleteMapping("/{id}")
     public Boolean deleteDog(@PathVariable Long id){
