@@ -1,10 +1,7 @@
 package com.services.impl;
 
-import com.dtos.DogDto;
 import com.dtos.VacataireDto;
-import com.entities.Dog;
 import com.entities.Vacataire;
-import com.repositories.DogRepository;
 import com.repositories.VacataireRepository;
 import com.services.VacataireService;
 import org.springframework.stereotype.Service;
