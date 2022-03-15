@@ -40,7 +40,7 @@ public class VacataireServiceImpl implements VacataireService {
         return vacataireDto;
     }
     /**
-     * Map vacataire entity to dog dto
+     * Map vacataire entity to vacataire dto
      */
     private Vacataire vacataireDtoToEntity(VacataireDto vacataireDto) {
         Vacataire vacataire = new Vacataire();
